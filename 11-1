@@ -1,0 +1,25 @@
+# Python program to add a key:value pair to dictionary
+
+dict = {'key1':'geeks', 'key2':'for'}
+print("Current Dict is: ", dict)
+
+# using the subscript notation
+# Dictionary_Name[New_Key_Name] = New_Key_Value
+
+dict['key3'] = 'Nate'
+dict['key4'] = 'Bob'
+dict['key5'] = 'Sam'
+dict['key6'] = 'Daniel'
+print("Updated Dict is: ", dict)
+
+dict = {'key1':'geeks', 'key2':'for'}
+print("Current Dict is: ", dict)
+
+# adding dict1 (key3, key4 and key5) to dict
+dict1 = {'key3':'Nate', 'key4':'Bob', 'key5':'Derek'}
+dict.update(dict1)
+
+# by assigning
+dict.update(newkey1 ='portal')
+print(dict)
+
